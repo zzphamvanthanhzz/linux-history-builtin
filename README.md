@@ -51,3 +51,18 @@ When bash writes to the history file, the oldest commands that go over this maxi
 [thanhpv@ThinkPad-T450:~] $ type history
 history is a shell builtin
 
+http://www.linuxnix.com/what-is-a-built-in-command-in-linux/: 
+
+
+5_Linux built-in command:
+*A built-in command is simply a command that the shell carries out itself, instead of interpreting it as a request to load and run some other program.
+*First, it's usually faster, because loading and running a program takes time.
+*Secondly, a built-in command can affect the internal state of the shell. Example: cd must be built-in, because an external program can't change the current directory of the shell.  
+
+**************************************************************************************************************************************************************
+*****************************http://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html****************************************************
+**************************************************************************************************************************************************************
+
+6_history source code:
+bash/builtins/history.def
+
